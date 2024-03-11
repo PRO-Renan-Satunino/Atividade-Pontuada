@@ -6,14 +6,14 @@ programa {
     real desconto, valorFinal, valorTotal
     inteiro combustivel
 
-    escreva("Escolha o combust�vel: \n")
+    escreva("Escolha o combustível: \n")
     escreva("1- Gasolina\n")
-    escreva("2- Alco�l\n")
+    escreva("2- Álcool\n")
     leia(combustivel)
 
     escolha(combustivel) {
       caso 1:
-        escreva("\nQuantos litros voc� deseja abastecer? ")
+        escreva("\nQuantos litros você deseja abastecer? ")
         leia(litros)
 
         se (litros<= 25) {
@@ -40,7 +40,7 @@ programa {
         pare
 
         caso 2:
-        escreva("\nQuantos litros voc� deseja abastecer? ")
+        escreva("\nQuantos litros você deseja abastecer? ")
         leia(litros)
 
         se (litros<= 25) {
@@ -75,7 +75,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 363; 
+ * @POSICAO-CURSOR = 398; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
